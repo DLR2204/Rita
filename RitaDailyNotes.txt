@@ -1,0 +1,63 @@
+on - 1 off -0 ---------------->Ascii/unicode(16)
+
+			a- 97-01010101
+			
+s.l :- design the website
+
+p.l :- develop softwares
+			
+								computer languages 
+				scripting languages				programming languages
+				
+		html,css,js,ts......					pop				oop
+		
+										basic,fortan,python..		pyhton,java,.net........
+
+
+security :- encapsulation , Abstraction
+
+performance :- Inheritance , Polymorphism
+
+
+java:- 
+
+(1)portable :- 
+
+(2)GarbageCollector :- 
+
+sunmicrosystems :- 
+
+GreenTalk(.gt)---------------->oak -------------->java(.java)
+
+jdk 1.0------------------------------------------>jdk 24
+
+jse/j2se:- core java -Standalone app's[no client-server]
+
+jee/j2ee:- core java + adj java - web app's ,distributed app's [client-server]
+
+jme/j2me :- java  ----->mobile app's
+
+
+Varaibles :- 
+---------
+
+			datatype variableName;  //declaration of a variableName
+			
+			
+			datatype variableName = value ; //initialization of a variable
+			
+			
+			ecllipse ide shortcuts :- 
+			
+			main,syso :- ctrl +space
+			
+			format :- ctrl+shift+f
+			
+			
+
+
+
+
+
+
+								
