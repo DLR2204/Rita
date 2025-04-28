@@ -38,6 +38,14 @@ jee/j2ee:- core java + adj java - web app's ,distributed app's [client-server]
 jme/j2me :- java  ----->mobile app's
 
 
+
+			ecllipse ide shortcuts :- 
+			
+			main,syso :- ctrl +space
+			
+			format :- ctrl+shift+f
+			
+
 Varaibles :- 
 ---------
 
@@ -46,16 +54,54 @@ Varaibles :-
 			
 			datatype variableName = value ; //initialization of a variable
 			
+									Varaibles
 			
-			ecllipse ide shortcuts :- 
-			
-			main,syso :- ctrl +space
-			
-			format :- ctrl+shift+f
-			
-			
+		(1)LocalVaraible(inside the method)		(2)Global Varaibles(outside the method)
+												
+												static  g.v					instance g.v
+		
+
+syntax:- 
+======
+
+static:-   static  datatype variableName = value;
+
+instance:-   datatype variableName = value;
 
 
+access:- 
+=======
+static:- Static prop's can be accessed using class reference
+
+instance:- instance prop's cab be accessed using object reference
+
+				syntax for obj creation:- 
+				
+			ClassName objName = new ClassName();	
+				
+				
+
+memory location:-
+===============
+
+static:- static prop's will gets the memory area only once when the class loads into the jvm
+
+instance:- instance prop's will gets the memory area for every object creation
+
+usage:- 
+=====
+
+static:-used to store the common data
+
+instance:- used to store the unique data
+
+
+in the memory:-
+=============
+
+static:- Method area
+
+instance:- Heap area
 
 
 
