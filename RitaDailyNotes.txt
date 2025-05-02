@@ -103,7 +103,31 @@ static:- Method area
 
 instance:- Heap area
 
+operators :- ULTRA AB
+=========
 
+						A + B (Operands)
+
+Uniary 
+
+Logical
+
+Terinary
+
+Relational 
+
+Assignment
+
+Arithematic 
+
+Bitwise
+
+
+Flow Control Statements:- 
+
+(1)Conditional statements
+
+(2)Loops 
 
 
 								
