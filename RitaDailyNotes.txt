@@ -130,4 +130,13 @@ Flow Control Statements:-
 (2)Loops 
 
 
-								
+methods :-  	(1)static 					//dynamic
+
+		syntax :-  accessmodifier   returntype methodName(params...){
+		
+		
+				//method body
+						}
+						
+						
+			
