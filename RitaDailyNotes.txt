@@ -138,5 +138,91 @@ methods :-  	(1)static 					//dynamic
 				//method body
 						}
 						
+
+class = variable + methods 
+
 						
-			
+Inheritance :- Accquring the parent class prop's to the child class.
+
+					
+					extends 				implements
+				cls--->cls					interface---->clss
+
+
+
+
+class A{      //Parent/super
+
+100 methods
+}
+
+class B extends A{   //base/child
+
+1 method+ 100 methods
+
+}
+					
+
+class A{						class B{
+
+add(int a,int b){				add(int a,int b){
+	
+a+b;							a*b;	
+	
+}								}	
+}								}
+
+class C extends A,B{
+
+	add(4,5);  
+
+}
+
+
+*M.I is not supported in java @ Class Level
+
+*M.I is supported in java @interface level
+
+
+methods :- based on the method body.2 types 
+-------
+		(1)concrete method :- methods with method body/implementation
+		
+				syntax :-  accessmodifier   returntype methodName(params...){
+		
+		
+				//method body
+						}
+		
+		
+		(2)abstract method :- methods with out method body/implementation
+						
+				syntax :-  accessmodifier   returntype methodName(params...);
+				
+				
+				
+	
+	
+	class = collection of only concrete methods
+	
+	abstract class = collection of both concrete + abstract methods
+	
+	interface = collection of only abstract methods.
+	
+	
+Abstraction :- Hiding the logic/data .
+------------
+
+Polymorphism :- 
+------------
+(1)MethodOverloading :- method name is same but params are diff.
+						(1)type of params
+						(2)order of params
+						(3)number of params
+
+(2)Methodoverriding:- method name is same but method body/implementation diff.
+
+
+
+
+
