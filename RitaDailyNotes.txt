@@ -222,6 +222,97 @@ Polymorphism :-
 
 (2)Methodoverriding:- method name is same but method body/implementation diff.
 
+class Parent{
+
+100 Cr()
+
+marriage(){ kajol}
+
+relatives()
+}
+	
+	class Child extends Parent{
+
+100 Cr()
+
+@Override
+marriage(){ deepika}
+
+relatives()
+
+
+	}
+	
+	
+Encapsulation:- wraps the data into a single unit to provide the security.
+==============
+	
+	acessmodifiers
+	
+	
+	constructor:- to initialize the objects
+	===========
+	
+	(1)default constructor
+	
+	syntax :- 
+	
+				accessmodifier className(){
+				
+					//body
+				}
+				
+	
+	(2)parametrized constructor
+	syntax :- 
+	
+				accessmodifier className(params..){
+				
+					//body
+				}
+				
+				
+				
+	Exception :-  try catch finally throw throws
+
+
+arrays :- collection of homogenous data
+
+		
+		(1)int arr[] = new int[arr length];
+		
+		(2)int arr[] = {1,2,2,3,4,5,5,6,6,7,7,7}
+		
+		(3)int arr[] = new int[]{1,2,2,3,4,5,5,6,6,7,7,7};
+		
+		
+		
+	(1)It can accept only similar type of data
+
+	(2)Fixed in size
+	
+	(3)No utility methods
+
+
+
+Collections :- framework
+============
+
+(1)It can accept both similar nd disimilar type of data
+
+(2)Not Fixed in size
+	
+(3)Lots of  utility methods
+
+
+If our frequent operation is :- 
+
+------->insertion or deletion in the middle then linkedlist is better
+
+------->selection of an obj in the middle then arraylist is better
+
+
+
 
 
 
