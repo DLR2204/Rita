@@ -313,6 +313,26 @@ If our frequent operation is :-
 
 
 
+String:- 
+
+		String 					StringBuffer			      StringBuilder
+
+		immutable				mutable							mutable
+								
+								Syncronised						Not Syncronised
+								
+								
+------------->java.io
+
+	(1)Create a file :- File
+	
+	
+	(2)Write into a file :- FileWriter
+							BufferedWriter
+							PrintWriter
+							
+	(3)Read from a file :-  FileReader
+							BufferedReader
 
 
 
