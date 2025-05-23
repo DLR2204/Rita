@@ -305,6 +305,7 @@ Collections :- framework
 (3)Lots of  utility methods
 
 
+
 If our frequent operation is :- 
 
 ------->insertion or deletion in the middle then linkedlist is better
@@ -334,6 +335,36 @@ String:-
 	(3)Read from a file :-  FileReader
 							BufferedReader
 
+	Date API:-   java 8
+	--------
+	
+	java.util :- Date
+	
+	java.time :- LocalDate
+				
+	
+	junit :- java unit testing 
+	
+	
+	Database :- It's an organized collection of data for better accessing ,nd storing.
+	
+	DBMS :- RDBMS =>table = row (records)+column(fields)
+	
+	Queires :- It's a command to perform any operation in the db.5 types :- 
+	
+	
+			DDL(Data Definition Language):- create,alter,rename,drop,truncate
+			
+			DML(Data Manipulation Language):- insert,update,delete
+			
+			DRL(Data Retrival Language):- select 
+			
+			DCL(Data Control Language):- grant,revoke
+			
+			TCL(Tx'n Control Language):- commit,rollback
+	
+	
 
+	
 
 
