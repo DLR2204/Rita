@@ -222,6 +222,8 @@ Polymorphism :-
 
 (2)Methodoverriding:- method name is same but method body/implementation diff.
 
+
+
 class Parent{
 
 100 Cr()
@@ -305,13 +307,11 @@ Collections :- framework
 (3)Lots of  utility methods
 
 
-
 If our frequent operation is :- 
 
 ------->insertion or deletion in the middle then linkedlist is better
 
 ------->selection of an obj in the middle then arraylist is better
-
 
 
 String:- 
@@ -334,7 +334,7 @@ String:-
 							
 	(3)Read from a file :-  FileReader
 							BufferedReader
-
+		
 	Date API:-   java 8
 	--------
 	
@@ -353,18 +353,21 @@ String:-
 	Queires :- It's a command to perform any operation in the db.5 types :- 
 	
 	
-			DDL(Data Definition Language):- create,alter,rename,drop,truncate
+			DDL(Data Definition Language):- create,alter,rename,drop,truncate  [auto-committed]
 			
-			DML(Data Manipulation Language):- insert,update,delete
+			DML(Data Manipulation Language):- insert,update,delete[not auto-comitted]
 			
 			DRL(Data Retrival Language):- select 
 			
 			DCL(Data Control Language):- grant,revoke
 			
-			TCL(Tx'n Control Language):- commit,rollback
+			TCL(Tx'n Control Language):- commit(save),rollback(undo)
 	
 	
-
+		
+		drop :- deletes the entire table.
+		
+		truncate :- it will deletes the data inside the table.
+		
+		deletes :- it will deletes the entire data or specified rows .
 	
-
-
