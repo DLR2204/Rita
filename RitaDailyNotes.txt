@@ -370,4 +370,55 @@ String:-
 		truncate :- it will deletes the data inside the table.
 		
 		deletes :- it will deletes the entire data or specified rows .
+
+jdbc(java database connectivity)
+									----
+									
+(1)Loading the drivers
+
+(2)create the connection 
+
+(3)create the statements
+
+(4)execute the statements
+
+(5)close the connection
+	
+	
+	Limitations :- 
+	------------
+	
+	(1)Queires
+	
+	(2)Need to create Table 
+	
+	(3)same file for db prop's, logic/data
+
+	(4)Repeated code
+	
+	
+	jpa(java persistence API) :- spefication
+	-------------------------
+
+	(1)No Queires
+	
+	(2)No Table creation
+	
+	(3)diff files for db prop's, logic/data
+
+	(4)No Repeated code
+	
+	
+	ORM(Object Relation Mapping) Tools :- hibernate,ecllipselink,toplink,ibatis......
+	----------------------------------
+
+class ------->table 
+
+variables ----->columns
+
+object ------>row
+
+diff files :- db prop's :- .xml file ,logic ;- .java
+
+
 	
