@@ -370,8 +370,9 @@ String:-
 		truncate :- it will deletes the data inside the table.
 		
 		deletes :- it will deletes the entire data or specified rows .
-
-jdbc(java database connectivity)
+		
+		
+									jdbc(java database connectivity)
 									----
 									
 (1)Loading the drivers
@@ -420,6 +421,9 @@ object ------>row
 
 diff files :- db prop's :- .xml file ,logic ;- .java
 
+
+
+
 c - create/insert ----->persist()
 
 r - retrive ->select--->find()
@@ -437,5 +441,77 @@ d - delete------------->remove()
 						
 		maven :-It is build tool
 		------
+		
+									Spring
+									======
+									
+Def :- Spring is a non-invasive framework which is used to develop light-weighted and loosley
+			coupled web application.
+			
+			invasive :- It will rushes the programmer to use inbuilt api.
+			
+			non-invasive :- It will not rushes the programmer to use inbuilt api.
+			
+			heavy weighted :-
+			
 
+Class A{
+
+1000 methods
+}		
+
+class B extends A{
+10 method
+
+}	
+
+class C extends B{
+1 methods ---->1+10+1000
+
+}
+
+			
+			light-weighted
+			
+			tightly coupled :- If the dependencies b/n the classes are very high
+			
+			loosley coupled :- If the dependencies b/n the classes are low
+			
+			
+	
+	Spring Core,Spring Boot,Spring Rest,Spring Security,Spring DataJpa..............
+	
+	
+							Spring Core :- 
+							============
+							
+->It will avoid the dependencies b/n the classes to make our application into loosley coupled 
+		web app.
+		
+		Containers :- They will creates the objects
+		----------	
+		
+						(1)ApplicationContext
+						
+						(2)BeanFactory
+						
+						
+		Dependency Injection :- Passing the data into the object 
+		--------------------
+						(1)Setter Injection    <property>
+						
+						(2)Constructor Injection <constructor-arg>
+		
+		
+		Configuration:- 
+		---------------
+		
+						(1)xml config
+						
+						(2)AnnationConfig
+						
+						
+						
+						
+	
 	
