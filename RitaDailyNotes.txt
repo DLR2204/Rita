@@ -420,5 +420,22 @@ object ------>row
 
 diff files :- db prop's :- .xml file ,logic ;- .java
 
+c - create/insert ----->persist()
+
+r - retrive ->select--->find()
+
+u - update------------->merge()
+
+d - delete------------->remove()
+
+
+
+						EntityManagerFactory
+						
+						EntityManager
+						
+						
+		maven :-It is build tool
+		------
 
 	
